@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/submenu.css">
 </head>
 
 <body>
@@ -57,25 +58,27 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">                                                                                          
-                                            <li class="active" ><a href="index.html">Home</a></li>
-                                            <li><a href="#">studies material</a>
-                                                <ul class="submenu">
-                                                    <li><a href="videos.html">videos</a></li>
-                                                    <li><a href="notes.html">notes</a></li>
-                                                    <li><a href="pdf.html">pdf</a></li>
+                                            <li class="active" ><a href="index.html"  class="underline">Home</a></li>
+                                            <li><a href="#" class="underline">studies material</a>
+                                                <ul class="submenu" id="subsub1">
+                                                    <li><a href="videos.html" id="sublink4">videos</a></li>
+                                                    <li><a href="notes.html" id="sublink5">notes</a></li>
+                                                    <li><a href="pdf.html" id="sublink6">pdf</a></li>
                                                 </ul></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
+                                            
+                                            
+                                            <li><a href="about.html" class="underline">About</a></li>
+                                            <li><a href="#" class="underline">Blog</a>
+                                                <ul class="submenu" id="subsub2">
+                                                    <li><a href="blog.html" id="sublink1">Blog</a></li>
+                                                    <li><a href="blog_details.html" id="sublink2">Blog Details</a></li>
+                                                    <li><a href="elements.html" id="sublink3">Element</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.html" class="underline">Contact</a></li>
                                             <!-- Button -->
-                                            <li class="button-header margin-left "><a href="#" class="btn">Join</a></li>
-                                            <li class="button-header"><a href="login.html" class="btn btn3">Log in</a></li>
+                                            <li class="button-header margin-left "><a href="#" class="btn">sign up</a></li>
+                                            <li class="button-header"><a href="login.html" class="btn btn3">sign in</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -118,6 +121,10 @@
             </div>
         </section>
         <!-- Courses area start -->
+        <form action="" id="serachforyou">
+            <input type="search" id="serachboxforyou" placeholder="search">
+            <i class="fa fa-search"></i>
+          </form>
         <div class="courses-area section-padding40 fix">
             <div class="container">
                 <div class="row justify-content-center">
